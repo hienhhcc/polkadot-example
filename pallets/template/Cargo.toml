@@ -33,3 +33,10 @@ std = [
 	'frame-system/std',
 	'frame-benchmarking/std',
 ]
+
+# add `sp-std` in the dependencies section of the toml file
+
+[dependencies]
+# -- snip -- 
+sp-std = { default-features = false, version = '3.0.0' }
+# -- snip --
